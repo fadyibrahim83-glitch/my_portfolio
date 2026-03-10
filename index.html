@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فادي إبراهيم | خبير تسويق وصناعة محتوى</title>
+    <!-- Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&display=swap');
+        
+        body {
+            font-family: 'Cairo', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .gradient-bg {
+            background: radial-gradient(circle at top right, #1e3a8a, #020617);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            background: rgba(255, 255, 255, 0.07);
+            transform: translateY(-5px);
+        }
+
+        .accent-border {
+            border-right: 4px solid #3b82f6;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #3b82f6;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-white/5">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-black text-blue-500 tracking-tighter uppercase">
+                FADY <span class="text-white">IBRAHIM</span>
+            </div>
+            <div class="hidden md:flex space-x-reverse space-x-8 text-sm font-bold">
+                <a href="#home" class="hover:text-blue-400 transition">الرئيسية</a>
+                <a href="#about" class="hover:text-blue-400 transition">عني</a>
+                <a href="#skills" class="hover:text-blue-400 transition">المهارات</a>
+                <a href="#contact" class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition">تواصل الآن</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="gradient-bg min-h-screen flex items-center pt-20">
+        <div class="container mx-auto px-6 text-center md:text-right">
+            <div class="max-w-3xl">
+                <span class="inline-block py-1 px-3 rounded bg-blue-500/10 text-blue-400 text-xs font-bold mb-6 tracking-widest border border-blue-500/20 uppercase">
+                    Ismailia, Egypt
+                </span>
+                <h1 class="text-5xl md:text-7xl font-black text-white mb-6 leading-tight">
+                    فادي إبراهيم<br>
+                    <span class="text-blue-500 italic text-4xl md:text-6xl">Marketing & Visual Production</span>
+                </h1>
+                <p class="text-slate-400 text-lg md:text-xl mb-10 leading-relaxed max-w-2xl font-light">
+                    خبير في تطوير الأفكار التسويقية وصناعة المحتوى الرقمي. أمتلك القدرة على فهم احتياجات السوق وتحويلها إلى رسائل بصرية مؤثرة.
+                </p>
+                <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+                    <a href="#contact" class="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-700 transition shadow-lg shadow-blue-900/20">تواصل معي</a>
+                    <a href="#about" class="glass-card px-8 py-4 rounded-xl font-bold hover:border-white/30 transition">تعرف عليّ أكثر</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-slate-900">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <div class="mb-12">
+                    <h2 class="text-3xl md:text-4xl font-black text-white mb-4">من أنا؟</h2>
+                    <div class="w-20 h-1.5 bg-blue-600 rounded-full"></div>
+                </div>
+                <div class="space-y-6 text-slate-300 text-lg leading-relaxed">
+                    <p class="accent-border pr-6 bg-white/5 py-6 rounded-l-xl">
+                        أنا <span class="text-blue-400 font-bold">فادي إبراهيم جرجس</span>، صانع محتوى ومساعد تسويق ومبيعات من مدينة الإسماعيلية. أسعى دائماً لتطوير مهاراتي في الإنتاج الرقمي والتسويق الإلكتروني لمواكبة تطور السوق.
+                    </p>
+                    <p>
+                        بفضل خبرتي العملية في المحلات التجارية، اكتسبت مهارات قوية في التواصل مع العملاء، فهم احتياجاتهم، وترويج المنتجات بفعالية. أؤمن أن التصميم الجيد والمونتاج الاحترافي هما العمود الفقري لأي حملة تسويقية ناجحة.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-24 bg-slate-950">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-black text-white mb-16 text-center underline decoration-blue-600 underline-offset-8">المهارات والخبرات</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Skill 1 -->
+                <div class="glass-card p-8 rounded-2xl text-center">
+                    <i class="fa-solid fa-lightbulb text-4xl text-blue-500 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3 text-white">أفكار تسويقية</h3>
+                    <p class="text-slate-400 text-sm italic">توليد أفكار إبداعية لمنصات التواصل الاجتماعي تجذب الجمهور.</p>
+                </div>
+                <!-- Skill 2 -->
+                <div class="glass-card p-8 rounded-2xl text-center">
+                    <i class="fa-solid fa-video text-4xl text-cyan-500 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3 text-white">إنتاج الفيديو</h3>
+                    <p class="text-slate-400 text-sm italic">الرغبة والشغف لتعلم واحتراف المونتاج وصناعة الفيديو الرقمي.</p>
+                </div>
+                <!-- Skill 3 -->
+                <div class="glass-card p-8 rounded-2xl text-center">
+                    <i class="fa-solid fa-comments text-4xl text-purple-500 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3 text-white">تواصل وإقناع</h3>
+                    <p class="text-slate-400 text-sm italic">خبرة في التعامل المباشر مع العملاء وحل المشكلات بذكاء.</p>
+                </div>
+                <!-- Skill 4 -->
+                <div class="glass-card p-8 rounded-2xl text-center">
+                    <i class="fa-solid fa-users text-4xl text-emerald-500 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3 text-white">العمل الجماعي</h3>
+                    <p class="text-slate-400 text-sm italic">القدرة على العمل ضمن فريق لتحقيق أهداف الشركة التسويقية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-slate-900 border-t border-white/5">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-black text-white mb-8 italic">دعنا نعمل معاً</h2>
+            <p class="text-slate-400 mb-16 max-w-xl mx-auto">
+                أنا متاح حالياً للمشاريع الجديدة أو للعمل ضمن فريق إبداعي. تواصل معي عبر إحدى الوسائل التالية:
+            </p>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+                <!-- Phone -->
+                <a href="tel:01220360433" class="group flex items-center gap-4 glass-card px-10 py-6 rounded-2xl hover:border-blue-500 transition shadow-2xl">
+                    <i class="fa-solid fa-phone text-2xl text-blue-500 group-hover:scale-110 transition"></i>
+                    <div class="text-right">
+                        <span class="block text-xs text-slate-500 uppercase font-bold">اتصل بي</span>
+                        <span class="text-xl font-black text-white tracking-widest">01220360433</span>
+                    </div>
+                </a>
+                <!-- Email -->
+                <a href="mailto:fadyibrahim83@gmail.com" class="group flex items-center gap-4 glass-card px-10 py-6 rounded-2xl hover:border-blue-500 transition shadow-2xl">
+                    <i class="fa-solid fa-envelope text-2xl text-blue-500 group-hover:scale-110 transition"></i>
+                    <div class="text-right">
+                        <span class="block text-xs text-slate-500 uppercase font-bold">البريد الإلكتروني</span>
+                        <span class="text-lg font-black text-white">fadyibrahim83@gmail.com</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-slate-950 text-center">
+        <div class="text-xl font-black text-blue-500 tracking-tighter uppercase mb-4">
+            FADY <span class="text-white">IBRAHIM</span>
+        </div>
+        <p class="text-slate-600 text-xs font-bold uppercase tracking-widest">
+            &copy; 2024 جميع الحقوق محفوظة | صُنع بواسطة فادي إبراهيم
+        </p>
+    </footer>
+
+</body>
+</html>
